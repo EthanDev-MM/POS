@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f766e">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+<title>Simple POS</title>
+</head>
+<body>
+<header><b id="hd">Simple POS</b><span id="sy" class="dot" title="local"></span></header>
+<main id="m"></main>
+<nav id="nav">
+  <button data-t="sell">Sell</button><button data-t="items">Items</button>
+  <button data-t="report">Dashboard</button><button data-t="set">Settings</button>
+</nav>
+<div id="ov"><div class="card" id="md"></div></div>
+<div id="toast"></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
